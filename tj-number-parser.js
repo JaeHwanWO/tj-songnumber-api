@@ -78,9 +78,9 @@ var search = (req, res) => {
   });
 }
 
-// 포트 설정
-app.listen((3000), function(){
-  console.log('Express server listening on port');
-})
+// // 포트 설정
+// app.listen((3000), function(){
+//   console.log('Express server listening on port');
+// })
 
 app.get("/search", search)
