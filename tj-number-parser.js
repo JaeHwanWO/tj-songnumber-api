@@ -80,9 +80,9 @@ var search = (req, res) => {
 
 const port = process.env.PORT || 3000;
 
-//heroku 배포를 위해 주석 처리
+// heroku 배포를 위해 주석 처리
 // 포트 설정
-app.listen((3000), function(){
+app.listen((port), function(){
   console.log('Express server listening on port');
 })
 
