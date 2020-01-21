@@ -78,9 +78,12 @@ var search = (req, res) => {
   });
 }
 
-// // 포트 설정
-// app.listen((3000), function(){
-//   console.log('Express server listening on port');
-// })
+const port = process.env.PORT || 3000;
+
+//heroku 배포를 위해 주석 처리
+// 포트 설정
+app.listen((3000), function(){
+  console.log('Express server listening on port');
+})
 
 app.get("/search", search)
