@@ -5,8 +5,7 @@
   "main": "number-parser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node number-parser.js",
-    "heroku-postbuild": "node number-parser.js"
+    "start": "node tj-number-parser",
   },
   "keywords": [],
   "author": "",
